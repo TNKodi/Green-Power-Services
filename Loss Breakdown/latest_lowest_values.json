@@ -1,0 +1,182 @@
+[
+  {
+    "alarm_id": "51de27ef-d0f4-4aee-a028-7788b5a9e5b8",
+    "alarm_name": "Grid Overvoltage is active",
+    "device_name": "GP_SMS1129_Inverter_2",
+    "device_id": "cc9c5080-089d-11f1-8bdd-cfe25c37864b",
+    "originator": "GP_SMS1129_Inverter_2",
+    "active_time": "2026-03-04 13:16:48 Sri Lanka Standard Time",
+    "cleared_time": "2026-03-04 13:19:47 Sri Lanka Standard Time",
+    "asset_source": "ASSET/8ea89070-089f-11f1-8bdd-cfe25c37864b",
+    "keys": {
+      "active_power": {
+        "active_lowest": {
+          "ts": 1772610408416,
+          "time": "2026-03-04 13:16:48 Sri Lanka Standard Time",
+          "value": 49.13
+        },
+        "clear_lowest": {
+          "ts": 1772610587217,
+          "time": "2026-03-04 13:19:47 Sri Lanka Standard Time",
+          "value": 48.37
+        }
+      },
+      "active_power_solcast": {
+        "active_lowest": {
+          "ts": 1772610600000,
+          "time": "2026-03-04 13:20:00 Sri Lanka Standard Time",
+          "value": 57.958780210920295
+        },
+        "clear_lowest": {
+          "ts": 1772610600000,
+          "time": "2026-03-04 13:20:00 Sri Lanka Standard Time",
+          "value": 57.958780210920295
+        }
+      }
+    }
+  },
+  {
+    "alarm_id": "694910f2-aee7-4990-82c2-9a73b0ac8968",
+    "alarm_name": "Grid Overvoltage is active",
+    "device_name": "GP_SMS1129_Inverter_2",
+    "device_id": "cc9c5080-089d-11f1-8bdd-cfe25c37864b",
+    "originator": "GP_SMS1129_Inverter_2",
+    "active_time": "2026-03-04 12:49:47 Sri Lanka Standard Time",
+    "cleared_time": "2026-03-04 12:51:47 Sri Lanka Standard Time",
+    "asset_source": "ASSET/8ea89070-089f-11f1-8bdd-cfe25c37864b",
+    "keys": {
+      "active_power": {
+        "active_lowest": {
+          "ts": 1772608787347,
+          "time": "2026-03-04 12:49:47 Sri Lanka Standard Time",
+          "value": 43.74
+        },
+        "clear_lowest": {
+          "ts": 1772608907102,
+          "time": "2026-03-04 12:51:47 Sri Lanka Standard Time",
+          "value": 46.3
+        }
+      },
+      "active_power_solcast": {
+        "active_lowest": {
+          "ts": 1772608800000,
+          "time": "2026-03-04 12:50:00 Sri Lanka Standard Time",
+          "value": 62.569527314294916
+        },
+        "clear_lowest": {
+          "ts": 1772609100000,
+          "time": "2026-03-04 12:55:00 Sri Lanka Standard Time",
+          "value": 62.382382065720485
+        }
+      }
+    }
+  },
+  {
+    "alarm_id": "a460c1cc-a11c-4537-a419-02f586dcce29",
+    "alarm_name": "Grid Overvoltage is active",
+    "device_name": "GP_SMS1129_Inverter_2",
+    "device_id": "cc9c5080-089d-11f1-8bdd-cfe25c37864b",
+    "originator": "GP_SMS1129_Inverter_2",
+    "active_time": "2026-03-04 11:16:31 Sri Lanka Standard Time",
+    "cleared_time": "2026-03-04 11:17:33 Sri Lanka Standard Time",
+    "asset_source": "ASSET/8ea89070-089f-11f1-8bdd-cfe25c37864b",
+    "keys": {
+      "active_power": {
+        "active_lowest": {
+          "ts": 1772603191972,
+          "time": "2026-03-04 11:16:31 Sri Lanka Standard Time",
+          "value": 43.86
+        },
+        "clear_lowest": {
+          "ts": 1772603253523,
+          "time": "2026-03-04 11:17:33 Sri Lanka Standard Time",
+          "value": 43.71
+        }
+      },
+      "active_power_solcast": {
+        "active_lowest": {
+          "ts": 1772603100000,
+          "time": "2026-03-04 11:15:00 Sri Lanka Standard Time",
+          "value": 58.918641788579514
+        },
+        "clear_lowest": {
+          "ts": 1772603100000,
+          "time": "2026-03-04 11:15:00 Sri Lanka Standard Time",
+          "value": 58.918641788579514
+        }
+      }
+    }
+  },
+  {
+    "alarm_id": "d590a99e-8de4-4ccb-827e-c5155c7a5311",
+    "alarm_name": "Grid Overvoltage is active",
+    "device_name": "GP_SMS1129_Inverter_2",
+    "device_id": "cc9c5080-089d-11f1-8bdd-cfe25c37864b",
+    "originator": "GP_SMS1129_Inverter_2",
+    "active_time": "2026-03-04 10:32:32 Sri Lanka Standard Time",
+    "cleared_time": "2026-03-04 10:33:32 Sri Lanka Standard Time",
+    "asset_source": "ASSET/8ea89070-089f-11f1-8bdd-cfe25c37864b",
+    "keys": {
+      "active_power": {
+        "active_lowest": {
+          "ts": 1772600552445,
+          "time": "2026-03-04 10:32:32 Sri Lanka Standard Time",
+          "value": 38.14
+        },
+        "clear_lowest": {
+          "ts": 1772600612758,
+          "time": "2026-03-04 10:33:32 Sri Lanka Standard Time",
+          "value": 38.17
+        }
+      },
+      "active_power_solcast": {
+        "active_lowest": {
+          "ts": 1772600400000,
+          "time": "2026-03-04 10:30:00 Sri Lanka Standard Time",
+          "value": 53.15155178516985
+        },
+        "clear_lowest": {
+          "ts": 1772600400000,
+          "time": "2026-03-04 10:30:00 Sri Lanka Standard Time",
+          "value": 53.15155178516985
+        }
+      }
+    }
+  },
+  {
+    "alarm_id": "faecc3a0-fb1f-4eb3-8a6d-2426d509082c",
+    "alarm_name": "Grid Overvoltage is active",
+    "device_name": "GP_SMS1129_Inverter_2",
+    "device_id": "cc9c5080-089d-11f1-8bdd-cfe25c37864b",
+    "originator": "GP_SMS1129_Inverter_2",
+    "active_time": "2026-03-04 10:57:31 Sri Lanka Standard Time",
+    "cleared_time": "2026-03-04 11:00:32 Sri Lanka Standard Time",
+    "asset_source": "ASSET/8ea89070-089f-11f1-8bdd-cfe25c37864b",
+    "keys": {
+      "active_power": {
+        "active_lowest": {
+          "ts": 1772602051715,
+          "time": "2026-03-04 10:57:31 Sri Lanka Standard Time",
+          "value": 42.52
+        },
+        "clear_lowest": {
+          "ts": 1772602280890,
+          "time": "2026-03-04 11:01:20 Sri Lanka Standard Time",
+          "value": 41.99
+        }
+      },
+      "active_power_solcast": {
+        "active_lowest": {
+          "ts": 1772601900000,
+          "time": "2026-03-04 10:55:00 Sri Lanka Standard Time",
+          "value": 56.66857893352797
+        },
+        "clear_lowest": {
+          "ts": 1772602200000,
+          "time": "2026-03-04 11:00:00 Sri Lanka Standard Time",
+          "value": 57.329743642209394
+        }
+      }
+    }
+  }
+]
