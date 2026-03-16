@@ -1,0 +1,178 @@
+2026-03-16 10:55:09 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 10:55:09 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-03-16 10:55:09 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 10:55:09 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-03-16 10:55:09 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-03-16 10:55:09 - thingsboard-forecast - INFO - Default Target Level: 4
+2026-03-16 10:55:09 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-03-16 10:55:09 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-03-16 10:55:09 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 10:55:51 - thingsboard-forecast - INFO - Received forecast request for asset: 78fda490-e08b-11f0-b68f-8f33a9d74e0c | already_have=True | start=2026-03-01 end=2026-04-30
+2026-03-16 10:55:52 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-03-16 10:55:52 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-03-16 10:55:53 - thingsboard-forecast - INFO - Created job f4c0c19e-6f35-456e-9db1-6a5490aa48b0 for asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-16 10:55:53 - thingsboard-forecast - INFO - Forecast job f4c0c19e-6f35-456e-9db1-6a5490aa48b0 started in background
+2026-03-16 10:55:53 - thingsboard-forecast - INFO - Starting forecast job f4c0c19e-6f35-456e-9db1-6a5490aa48b0 for main asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c | already_have=True | start=2026-03-01T00:00:00 end=2026-04-30T00:00:00
+2026-03-16 10:55:53 - thingsboard-forecast - INFO - Job f4c0c19e-6f35-456e-9db1-6a5490aa48b0 status updated to running
+2026-03-16 10:55:53 - thingsboard-forecast - INFO - Retrieving hierarchy from 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-16 10:55:53 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-03-16 10:55:54 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-03-16 10:55:58 - thingsboard-forecast - INFO - Hierarchy resolved for 78fda490-e08b-11f0-b68f-8f33a9d74e0c: target_level=4, L2=7, L3=12, L4=8, processing_deepest_level=L4
+2026-03-16 10:55:59 - thingsboard-forecast - INFO - Processing level-4 asset 1/8: GP_WCS1098 (973a7ea0-f06d-11f0-af3b-45cf7f181cac)
+2026-03-16 10:55:59 - thingsboard-forecast - INFO - Processing asset 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-16 10:55:59 - thingsboard-forecast - INFO - Retrieved 24 attributes for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-16 10:55:59 - thingsboard-forecast - INFO - Running power prediction for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-16 10:56:00 - thingsboard-forecast - INFO - Prediction completed for 973a7ea0-f06d-11f0-af3b-45cf7f181cac: 14521.33 kWh total
+2026-03-16 10:56:00 - thingsboard-forecast - INFO - Writing telemetry for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-16 10:56:00 - thingsboard-forecast - INFO - Writing 61 telemetry records to 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-16 10:56:22 - thingsboard-forecast - INFO - Successfully wrote 61 records to 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-16 10:56:22 - thingsboard-forecast - INFO - Successfully wrote 61 telemetry records for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-16 10:56:22 - thingsboard-forecast - INFO - Processing level-4 asset 2/8: GP_WCS1138 (10425f40-08a4-11f1-8bdd-cfe25c37864b)
+2026-03-16 10:56:22 - thingsboard-forecast - INFO - Processing asset 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:23 - thingsboard-forecast - INFO - Retrieved 24 attributes for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:23 - thingsboard-forecast - WARNING - Asset 10425f40-08a4-11f1-8bdd-cfe25c37864b has attribute errors: ['orientation[0].module_count: missing']
+2026-03-16 10:56:23 - thingsboard-forecast - WARNING - Job f4c0c19e-6f35-456e-9db1-6a5490aa48b0 - Asset 10425f40-08a4-11f1-8bdd-cfe25c37864b error: missing_required_attributes
+2026-03-16 10:56:23 - thingsboard-forecast - INFO - Processing level-4 asset 3/8: GP_CKS1138 (87657cb0-08a4-11f1-8bdd-cfe25c37864b)
+2026-03-16 10:56:23 - thingsboard-forecast - INFO - Processing asset 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:23 - thingsboard-forecast - INFO - Retrieved 24 attributes for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:24 - thingsboard-forecast - INFO - Running power prediction for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:24 - thingsboard-forecast - INFO - Prediction completed for 87657cb0-08a4-11f1-8bdd-cfe25c37864b: 76998.42 kWh total
+2026-03-16 10:56:24 - thingsboard-forecast - INFO - Writing telemetry for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:24 - thingsboard-forecast - INFO - Writing 61 telemetry records to 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:45 - thingsboard-forecast - INFO - Successfully wrote 61 records to 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:45 - thingsboard-forecast - INFO - Successfully wrote 61 telemetry records for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:46 - thingsboard-forecast - INFO - Processing level-4 asset 4/8: GP_NAS1074 (35fa65d0-08a3-11f1-8bdd-cfe25c37864b)
+2026-03-16 10:56:46 - thingsboard-forecast - INFO - Processing asset 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:46 - thingsboard-forecast - INFO - Retrieved 24 attributes for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:46 - thingsboard-forecast - INFO - Running power prediction for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:46 - thingsboard-forecast - INFO - Prediction completed for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b: 37797.20 kWh total
+2026-03-16 10:56:46 - thingsboard-forecast - INFO - Writing telemetry for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:56:46 - thingsboard-forecast - INFO - Writing 61 telemetry records to 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:10 - thingsboard-forecast - INFO - Successfully wrote 61 records to 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:10 - thingsboard-forecast - INFO - Successfully wrote 61 telemetry records for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:11 - thingsboard-forecast - INFO - Processing level-4 asset 5/8: GP_SRS1116 (c85151a0-08a3-11f1-8bdd-cfe25c37864b)
+2026-03-16 10:57:11 - thingsboard-forecast - INFO - Processing asset c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:11 - thingsboard-forecast - INFO - Retrieved 24 attributes for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:11 - thingsboard-forecast - INFO - Running power prediction for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:11 - thingsboard-forecast - INFO - Prediction completed for c85151a0-08a3-11f1-8bdd-cfe25c37864b: 55796.61 kWh total
+2026-03-16 10:57:11 - thingsboard-forecast - INFO - Writing telemetry for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:11 - thingsboard-forecast - INFO - Writing 61 telemetry records to c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:34 - thingsboard-forecast - INFO - Successfully wrote 61 records to c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:34 - thingsboard-forecast - INFO - Successfully wrote 61 telemetry records for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:34 - thingsboard-forecast - INFO - Processing level-4 asset 6/8: GP_SMS1129 (8ea89070-089f-11f1-8bdd-cfe25c37864b)
+2026-03-16 10:57:34 - thingsboard-forecast - INFO - Processing asset 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:34 - thingsboard-forecast - INFO - Retrieved 24 attributes for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:34 - thingsboard-forecast - INFO - Running power prediction for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:35 - thingsboard-forecast - INFO - Prediction completed for 8ea89070-089f-11f1-8bdd-cfe25c37864b: 28452.62 kWh total
+2026-03-16 10:57:35 - thingsboard-forecast - INFO - Writing telemetry for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:35 - thingsboard-forecast - INFO - Writing 61 telemetry records to 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:58 - thingsboard-forecast - INFO - Successfully wrote 61 records to 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:58 - thingsboard-forecast - INFO - Successfully wrote 61 telemetry records for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-16 10:57:58 - thingsboard-forecast - INFO - Processing level-4 asset 7/8: GP_UML2187 (50ed6b00-16e3-11f1-8d01-cff7a27c53e8)
+2026-03-16 10:57:58 - thingsboard-forecast - INFO - Processing asset 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-16 10:57:58 - thingsboard-forecast - INFO - Retrieved 21 attributes for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-16 10:57:58 - thingsboard-forecast - INFO - Running power prediction for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-16 10:57:59 - thingsboard-forecast - INFO - Prediction completed for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8: 27399.22 kWh total
+2026-03-16 10:57:59 - thingsboard-forecast - INFO - Writing telemetry for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-16 10:57:59 - thingsboard-forecast - INFO - Writing 61 telemetry records to 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-16 10:58:20 - thingsboard-forecast - INFO - Successfully wrote 61 records to 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-16 10:58:20 - thingsboard-forecast - INFO - Successfully wrote 61 telemetry records for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-16 10:58:21 - thingsboard-forecast - INFO - Processing level-4 asset 8/8: GP_NKS1058 (0c982af0-07ff-11f1-8bdd-cfe25c37864b)
+2026-03-16 10:58:21 - thingsboard-forecast - INFO - Processing asset 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-16 10:58:21 - thingsboard-forecast - INFO - Retrieved 24 attributes for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-16 10:58:21 - thingsboard-forecast - INFO - Running power prediction for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-16 10:58:21 - thingsboard-forecast - INFO - Prediction completed for 0c982af0-07ff-11f1-8bdd-cfe25c37864b: 34147.60 kWh total
+2026-03-16 10:58:21 - thingsboard-forecast - INFO - Writing telemetry for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-16 10:58:21 - thingsboard-forecast - INFO - Writing 61 telemetry records to 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-16 10:58:43 - thingsboard-forecast - INFO - Successfully wrote 61 records to 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-16 10:58:43 - thingsboard-forecast - INFO - Successfully wrote 61 telemetry records for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-16 10:58:43 - thingsboard-forecast - INFO - Writing 61 telemetry records to f1b84100-e564-11f0-b68f-8f33a9d74e0c
+2026-03-16 10:59:06 - thingsboard-forecast - INFO - Successfully wrote 61 records to f1b84100-e564-11f0-b68f-8f33a9d74e0c
+2026-03-16 10:59:06 - thingsboard-forecast - INFO - Rolled up 2 level-4 assets into level-3 asset GP_Colombo_District (f1b84100-e564-11f0-b68f-8f33a9d74e0c)
+2026-03-16 10:59:07 - thingsboard-forecast - WARNING - No successful level-4 telemetry to roll up for level-3 asset GP_Gampaha_District (6bbf4050-e08a-11f0-b68f-8f33a9d74e0c)
+2026-03-16 10:59:07 - thingsboard-forecast - WARNING - No successful level-4 telemetry to roll up for level-3 asset GP_Kaluthara_District (c5437c70-e564-11f0-b68f-8f33a9d74e0c)
+2026-03-16 10:59:07 - thingsboard-forecast - INFO - Writing 61 telemetry records to baa26d70-e565-11f0-b68f-8f33a9d74e0c
+2026-03-16 10:59:28 - thingsboard-forecast - INFO - Successfully wrote 61 records to baa26d70-e565-11f0-b68f-8f33a9d74e0c
+2026-03-16 10:59:28 - thingsboard-forecast - INFO - Rolled up 1 level-4 assets into level-3 asset GP_Kandy_District (baa26d70-e565-11f0-b68f-8f33a9d74e0c)
+2026-03-16 10:59:29 - thingsboard-forecast - WARNING - No successful level-4 telemetry to roll up for level-3 asset GP_NuwaraEliya_District (e548daa0-e565-11f0-b68f-8f33a9d74e0c)
+2026-03-16 10:59:29 - thingsboard-forecast - WARNING - No successful level-4 telemetry to roll up for level-3 asset GP_Matale_District (d42a87a0-e565-11f0-b68f-8f33a9d74e0c)
+2026-03-16 10:59:29 - thingsboard-forecast - INFO - Writing 61 telemetry records to 585b86f0-08a7-11f1-8bdd-cfe25c37864b
+2026-03-16 10:59:50 - thingsboard-forecast - INFO - Successfully wrote 61 records to 585b86f0-08a7-11f1-8bdd-cfe25c37864b
+2026-03-16 10:59:50 - thingsboard-forecast - INFO - Rolled up 1 level-4 assets into level-3 asset GP_Anuradhapura_District (585b86f0-08a7-11f1-8bdd-cfe25c37864b)
+2026-03-16 10:59:51 - thingsboard-forecast - INFO - Writing 61 telemetry records to 064d18f0-e56c-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:00:12 - thingsboard-forecast - INFO - Successfully wrote 61 records to 064d18f0-e56c-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:00:12 - thingsboard-forecast - INFO - Rolled up 1 level-4 assets into level-3 asset GP_Rathnapura_District (064d18f0-e56c-11f0-b68f-8f33a9d74e0c)
+2026-03-16 11:00:13 - thingsboard-forecast - WARNING - No successful level-4 telemetry to roll up for level-3 asset GP_Kegalle_District (33420a00-e56c-11f0-b68f-8f33a9d74e0c)
+2026-03-16 11:00:13 - thingsboard-forecast - INFO - Writing 61 telemetry records to 011fb860-08a8-11f1-8bdd-cfe25c37864b
+2026-03-16 11:00:34 - thingsboard-forecast - INFO - Successfully wrote 61 records to 011fb860-08a8-11f1-8bdd-cfe25c37864b
+2026-03-16 11:00:34 - thingsboard-forecast - INFO - Rolled up 1 level-4 assets into level-3 asset GP_Matara_District (011fb860-08a8-11f1-8bdd-cfe25c37864b)
+2026-03-16 11:00:34 - thingsboard-forecast - INFO - Writing 61 telemetry records to 209da440-16e5-11f1-8d01-cff7a27c53e8
+2026-03-16 11:00:57 - thingsboard-forecast - INFO - Successfully wrote 61 records to 209da440-16e5-11f1-8d01-cff7a27c53e8
+2026-03-16 11:00:57 - thingsboard-forecast - INFO - Rolled up 1 level-4 assets into level-3 asset GP_Monaragala_District (209da440-16e5-11f1-8d01-cff7a27c53e8)
+2026-03-16 11:00:57 - thingsboard-forecast - INFO - Writing 61 telemetry records to 891165b0-08a9-11f1-8bdd-cfe25c37864b
+2026-03-16 11:01:22 - thingsboard-forecast - INFO - Successfully wrote 61 records to 891165b0-08a9-11f1-8bdd-cfe25c37864b
+2026-03-16 11:01:22 - thingsboard-forecast - INFO - Rolled up 1 level-4 assets into level-3 asset GP_Kurunegala_District (891165b0-08a9-11f1-8bdd-cfe25c37864b)
+2026-03-16 11:01:22 - thingsboard-forecast - INFO - Writing 61 telemetry records to 2e68a010-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:01:44 - thingsboard-forecast - INFO - Successfully wrote 61 records to 2e68a010-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:01:44 - thingsboard-forecast - INFO - Rolled up 3 level-3 assets into level-2 asset GP_Western_Province (2e68a010-e08b-11f0-b68f-8f33a9d74e0c)
+2026-03-16 11:01:44 - thingsboard-forecast - INFO - Writing 61 telemetry records to 542eab00-e559-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:02:09 - thingsboard-forecast - INFO - Successfully wrote 61 records to 542eab00-e559-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:02:09 - thingsboard-forecast - INFO - Rolled up 3 level-3 assets into level-2 asset GP_Central_Province (542eab00-e559-11f0-b68f-8f33a9d74e0c)
+2026-03-16 11:02:09 - thingsboard-forecast - INFO - Writing 61 telemetry records to 5bc1d660-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:02:31 - thingsboard-forecast - INFO - Successfully wrote 61 records to 5bc1d660-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:02:31 - thingsboard-forecast - INFO - Rolled up 1 level-3 assets into level-2 asset GP_NorthCentral_Province (5bc1d660-e55b-11f0-b68f-8f33a9d74e0c)
+2026-03-16 11:02:31 - thingsboard-forecast - INFO - Writing 61 telemetry records to 922edf70-e55d-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:02:52 - thingsboard-forecast - INFO - Successfully wrote 61 records to 922edf70-e55d-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:02:52 - thingsboard-forecast - INFO - Rolled up 2 level-3 assets into level-2 asset GP_Sabaragamuwa_Province (922edf70-e55d-11f0-b68f-8f33a9d74e0c)
+2026-03-16 11:02:52 - thingsboard-forecast - INFO - Writing 61 telemetry records to f3b48730-e559-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:03:16 - thingsboard-forecast - INFO - Successfully wrote 61 records to f3b48730-e559-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:03:16 - thingsboard-forecast - INFO - Rolled up 1 level-3 assets into level-2 asset GP_Southern_Province (f3b48730-e559-11f0-b68f-8f33a9d74e0c)
+2026-03-16 11:03:16 - thingsboard-forecast - INFO - Writing 61 telemetry records to e3722a60-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:03:38 - thingsboard-forecast - INFO - Successfully wrote 61 records to e3722a60-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:03:38 - thingsboard-forecast - INFO - Rolled up 1 level-3 assets into level-2 asset GP_Uva_Province (e3722a60-e55b-11f0-b68f-8f33a9d74e0c)
+2026-03-16 11:03:38 - thingsboard-forecast - INFO - Writing 61 telemetry records to 3bbe5780-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:04:00 - thingsboard-forecast - INFO - Successfully wrote 61 records to 3bbe5780-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:04:00 - thingsboard-forecast - INFO - Rolled up 1 level-3 assets into level-2 asset GP_NorthWestern_Province (3bbe5780-e55b-11f0-b68f-8f33a9d74e0c)
+2026-03-16 11:04:00 - thingsboard-forecast - INFO - Writing 61 telemetry records to 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:04:22 - thingsboard-forecast - INFO - Successfully wrote 61 records to 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:04:22 - thingsboard-forecast - INFO - Rolled up 7 level-2 assets into level-1 asset GP_All Island (78fda490-e08b-11f0-b68f-8f33a9d74e0c)
+2026-03-16 11:04:22 - thingsboard-forecast - WARNING - No level-0 sending devices found under main asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-16 11:04:22 - thingsboard-forecast - INFO - Job f4c0c19e-6f35-456e-9db1-6a5490aa48b0 Roll-up summary: target_level=4, processed_level=4, asset_rollup_assets_written=14, asset_rollup_records_written=854, level1_records_written=61, level0_devices_written=0, level0_records_written=0
+2026-03-16 11:04:22 - thingsboard-forecast - INFO - Forecast job f4c0c19e-6f35-456e-9db1-6a5490aa48b0 completed: 7 successful, 0 failed, 1 skipped
+2026-03-16 11:04:22 - thingsboard-forecast - INFO - Job f4c0c19e-6f35-456e-9db1-6a5490aa48b0 status updated to completed
+2026-03-16 11:49:53 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:49:53 - thingsboard-forecast - INFO - Shutting down API service
+2026-03-16 11:49:53 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:49:56 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:49:56 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-03-16 11:49:56 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:49:56 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-03-16 11:49:56 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-03-16 11:49:56 - thingsboard-forecast - INFO - Default Target Level: 4
+2026-03-16 11:49:56 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-03-16 11:49:56 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-03-16 11:49:56 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:51:01 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:51:01 - thingsboard-forecast - INFO - Shutting down API service
+2026-03-16 11:51:01 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:51:03 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:51:03 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-03-16 11:51:03 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:51:03 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-03-16 11:51:03 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-03-16 11:51:03 - thingsboard-forecast - INFO - Default Target Level: 4
+2026-03-16 11:51:03 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-03-16 11:51:03 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-03-16 11:51:03 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:51:05 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:51:05 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-03-16 11:51:05 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:51:05 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-03-16 11:51:05 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-03-16 11:51:05 - thingsboard-forecast - INFO - Default Target Level: 4
+2026-03-16 11:51:05 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-03-16 11:51:05 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-03-16 11:51:05 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:54:23 - thingsboard-forecast - INFO - ============================================================
+2026-03-16 11:54:23 - thingsboard-forecast - INFO - Shutting down API service
+2026-03-16 11:54:23 - thingsboard-forecast - INFO - ============================================================

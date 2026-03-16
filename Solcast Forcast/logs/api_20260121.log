@@ -1,0 +1,633 @@
+2026-01-21 10:42:42 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 10:42:42 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 10:42:42 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 10:42:42 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 10:42:42 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 10:42:42 - thingsboard-forecast - INFO - Default Target Level: 3
+2026-01-21 10:42:42 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 10:42:42 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 10:42:42 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 10:43:43 - thingsboard-forecast - INFO - Received forecast request for asset: 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-01-21 10:43:43 - thingsboard-forecast - INFO - Created job 5349e5a3-fbed-46ec-b8af-09d6a075d737 for asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-01-21 10:43:43 - thingsboard-forecast - INFO - Forecast job 5349e5a3-fbed-46ec-b8af-09d6a075d737 started in background
+2026-01-21 10:43:43 - thingsboard-forecast - INFO - Starting forecast job 5349e5a3-fbed-46ec-b8af-09d6a075d737 for main asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-01-21 10:43:43 - thingsboard-forecast - INFO - Job 5349e5a3-fbed-46ec-b8af-09d6a075d737 status updated to running
+2026-01-21 10:43:43 - thingsboard-forecast - INFO - Retrieving assets from 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-01-21 10:43:43 - thingsboard-forecast - INFO - Traversing asset hierarchy from 78fda490-e08b-11f0-b68f-8f33a9d74e0c to level 3
+2026-01-21 10:43:43 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 10:43:44 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 10:43:44 - thingsboard-forecast - ERROR - Failed to get asset relations for 78fda490-e08b-11f0-b68f-8f33a9d74e0c: Client error '403 ' for url 'https://cloud.thingsnode.cc/api/relations/info?fromId=78fda490-e08b-11f0-b68f-8f33a9d74e0c&fromType=ASSET'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-01-21 10:43:44 - thingsboard-forecast - ERROR - Forecast job 5349e5a3-fbed-46ec-b8af-09d6a075d737 failed: Client error '403 ' for url 'https://cloud.thingsnode.cc/api/relations/info?fromId=78fda490-e08b-11f0-b68f-8f33a9d74e0c&fromType=ASSET'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+Traceback (most recent call last):
+  File "E:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 163, in run_forecast_for_main_asset
+    assets = await tb_client.get_assets_by_level(main_asset_id, target_level)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 151, in get_assets_by_level
+    children = await self.get_asset_relations(asset_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 114, in get_asset_relations
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 ' for url 'https://cloud.thingsnode.cc/api/relations/info?fromId=78fda490-e08b-11f0-b68f-8f33a9d74e0c&fromType=ASSET'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-01-21 10:43:44 - thingsboard-forecast - INFO - Job 5349e5a3-fbed-46ec-b8af-09d6a075d737 status updated to failed
+2026-01-21 10:43:51 - thingsboard-forecast - INFO - Received forecast request for asset: 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-01-21 10:43:51 - thingsboard-forecast - INFO - Created job a9166475-0156-4937-826e-08f075bbbd5c for asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-01-21 10:43:51 - thingsboard-forecast - INFO - Forecast job a9166475-0156-4937-826e-08f075bbbd5c started in background
+2026-01-21 10:43:51 - thingsboard-forecast - INFO - Starting forecast job a9166475-0156-4937-826e-08f075bbbd5c for main asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-01-21 10:43:51 - thingsboard-forecast - INFO - Job a9166475-0156-4937-826e-08f075bbbd5c status updated to running
+2026-01-21 10:43:52 - thingsboard-forecast - INFO - Retrieving assets from 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-01-21 10:43:52 - thingsboard-forecast - INFO - Traversing asset hierarchy from 78fda490-e08b-11f0-b68f-8f33a9d74e0c to level 3
+2026-01-21 10:43:52 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 10:43:53 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 10:43:53 - thingsboard-forecast - ERROR - Failed to get asset relations for 78fda490-e08b-11f0-b68f-8f33a9d74e0c: Client error '403 ' for url 'https://cloud.thingsnode.cc/api/relations/info?fromId=78fda490-e08b-11f0-b68f-8f33a9d74e0c&fromType=ASSET'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-01-21 10:43:53 - thingsboard-forecast - ERROR - Forecast job a9166475-0156-4937-826e-08f075bbbd5c failed: Client error '403 ' for url 'https://cloud.thingsnode.cc/api/relations/info?fromId=78fda490-e08b-11f0-b68f-8f33a9d74e0c&fromType=ASSET'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+Traceback (most recent call last):
+  File "E:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 163, in run_forecast_for_main_asset
+    assets = await tb_client.get_assets_by_level(main_asset_id, target_level)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 151, in get_assets_by_level
+    children = await self.get_asset_relations(asset_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 114, in get_asset_relations
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '403 ' for url 'https://cloud.thingsnode.cc/api/relations/info?fromId=78fda490-e08b-11f0-b68f-8f33a9d74e0c&fromType=ASSET'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-01-21 10:43:53 - thingsboard-forecast - INFO - Job a9166475-0156-4937-826e-08f075bbbd5c status updated to failed
+2026-01-21 10:44:59 - thingsboard-forecast - INFO - Processing new asset: b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 10:44:59 - thingsboard-forecast - INFO - Processing new asset b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 10:44:59 - thingsboard-forecast - INFO - Processing asset b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 10:44:59 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 10:45:00 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 10:45:00 - thingsboard-forecast - INFO - Retrieved 25 attributes for b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 10:45:00 - thingsboard-forecast - INFO - Running power prediction for b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 10:45:01 - thingsboard-forecast - INFO - Prediction completed for b4ee7360-f4fb-11f0-bef0-af3b94c8901e: 12842.52 kWh total
+2026-01-21 10:45:01 - thingsboard-forecast - INFO - Writing telemetry for b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 10:45:01 - thingsboard-forecast - INFO - Writing 10 telemetry records to b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 10:45:04 - thingsboard-forecast - INFO - Successfully wrote 10 records to b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 10:45:04 - thingsboard-forecast - INFO - Successfully wrote 10 telemetry records for b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 11:03:16 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:03:16 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:03:16 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:09:55 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:09:55 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:09:55 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:09:55 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:09:55 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:09:55 - thingsboard-forecast - INFO - Default Target Level: 3
+2026-01-21 11:09:55 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:09:55 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:09:55 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:10:59 - thingsboard-forecast - INFO - Received forecast request for asset: 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:10:59 - thingsboard-forecast - INFO - Created job e927b8aa-c756-49fa-9b6c-a2b7599432eb for asset 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:10:59 - thingsboard-forecast - INFO - Forecast job e927b8aa-c756-49fa-9b6c-a2b7599432eb started in background
+2026-01-21 11:10:59 - thingsboard-forecast - INFO - Starting forecast job e927b8aa-c756-49fa-9b6c-a2b7599432eb for main asset 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:10:59 - thingsboard-forecast - INFO - Job e927b8aa-c756-49fa-9b6c-a2b7599432eb status updated to running
+2026-01-21 11:11:00 - thingsboard-forecast - INFO - Retrieving assets from 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:11:00 - thingsboard-forecast - INFO - Traversing asset hierarchy from 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e to level 3
+2026-01-21 11:11:00 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:11:00 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:11:01 - thingsboard-forecast - INFO - Level 1: Found 4 assets
+2026-01-21 11:11:02 - thingsboard-forecast - INFO - Level 2: Found 3 assets
+2026-01-21 11:11:02 - thingsboard-forecast - INFO - Level 3: Found 0 assets
+2026-01-21 11:11:02 - thingsboard-forecast - WARNING - No assets found at level 3. Stopping traversal.
+2026-01-21 11:11:02 - thingsboard-forecast - INFO - Found 0 assets at level 3
+2026-01-21 11:11:02 - thingsboard-forecast - WARNING - No assets found for 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:11:02 - thingsboard-forecast - INFO - Job e927b8aa-c756-49fa-9b6c-a2b7599432eb status updated to completed
+2026-01-21 11:17:05 - thingsboard-forecast - INFO - Received forecast request for asset: 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:17:05 - thingsboard-forecast - INFO - Created job 7fde5e96-0d3e-427b-8a12-71f3ef88ec35 for asset 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:17:05 - thingsboard-forecast - INFO - Forecast job 7fde5e96-0d3e-427b-8a12-71f3ef88ec35 started in background
+2026-01-21 11:17:05 - thingsboard-forecast - INFO - Starting forecast job 7fde5e96-0d3e-427b-8a12-71f3ef88ec35 for main asset 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:17:05 - thingsboard-forecast - INFO - Job 7fde5e96-0d3e-427b-8a12-71f3ef88ec35 status updated to running
+2026-01-21 11:17:05 - thingsboard-forecast - INFO - Retrieving assets from 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:17:05 - thingsboard-forecast - INFO - Traversing asset hierarchy from 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e to level 3
+2026-01-21 11:17:05 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:17:06 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:17:06 - thingsboard-forecast - INFO - Level 1: Found 4 assets
+2026-01-21 11:17:07 - thingsboard-forecast - INFO - Level 2: Found 3 assets
+2026-01-21 11:17:08 - thingsboard-forecast - INFO - Level 3: Found 0 assets
+2026-01-21 11:17:08 - thingsboard-forecast - WARNING - No assets found at level 3. Stopping traversal.
+2026-01-21 11:17:08 - thingsboard-forecast - INFO - Found 0 assets at level 3
+2026-01-21 11:17:08 - thingsboard-forecast - WARNING - No assets found for 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:17:08 - thingsboard-forecast - INFO - Job 7fde5e96-0d3e-427b-8a12-71f3ef88ec35 status updated to completed
+2026-01-21 11:17:32 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:17:32 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:17:32 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:18:19 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:18:19 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:18:19 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:18:19 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:18:19 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:18:19 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:18:19 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:18:19 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:18:19 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:19:15 - thingsboard-forecast - INFO - Received forecast request for asset: 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:15 - thingsboard-forecast - INFO - Created job 9168821f-f437-4be7-a83d-2c4383ede639 for asset 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:15 - thingsboard-forecast - INFO - Forecast job 9168821f-f437-4be7-a83d-2c4383ede639 started in background
+2026-01-21 11:19:15 - thingsboard-forecast - INFO - Starting forecast job 9168821f-f437-4be7-a83d-2c4383ede639 for main asset 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:15 - thingsboard-forecast - INFO - Job 9168821f-f437-4be7-a83d-2c4383ede639 status updated to running
+2026-01-21 11:19:16 - thingsboard-forecast - INFO - Retrieving assets from 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:16 - thingsboard-forecast - INFO - Traversing asset hierarchy from 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e to level 1
+2026-01-21 11:19:16 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:19:17 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:19:17 - thingsboard-forecast - INFO - Level 1: Found 4 assets
+2026-01-21 11:19:17 - thingsboard-forecast - INFO - Found 4 assets at level 1
+2026-01-21 11:19:17 - thingsboard-forecast - INFO - Processing asset 1/4: d2706990-d032-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:17 - thingsboard-forecast - INFO - Processing asset d2706990-d032-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:17 - thingsboard-forecast - ERROR - Failed to read attributes for d2706990-d032-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/d2706990-d032-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:19:17 - thingsboard-forecast - ERROR - Failed to process asset d2706990-d032-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/d2706990-d032-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 49, in process_single_asset
+    attributes = await tb_client.read_device_attributes(asset_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 183, in read_device_attributes
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/d2706990-d032-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:19:17 - thingsboard-forecast - INFO - Processing asset 2/4: 6a6886b0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:17 - thingsboard-forecast - INFO - Processing asset 6a6886b0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:17 - thingsboard-forecast - ERROR - Failed to read attributes for 6a6886b0-d033-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/6a6886b0-d033-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:19:17 - thingsboard-forecast - ERROR - Failed to process asset 6a6886b0-d033-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/6a6886b0-d033-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 49, in process_single_asset
+    attributes = await tb_client.read_device_attributes(asset_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 183, in read_device_attributes
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/6a6886b0-d033-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:19:17 - thingsboard-forecast - INFO - Processing asset 3/4: 4747b050-d035-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:17 - thingsboard-forecast - INFO - Processing asset 4747b050-d035-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:17 - thingsboard-forecast - ERROR - Failed to read attributes for 4747b050-d035-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/4747b050-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:19:17 - thingsboard-forecast - ERROR - Failed to process asset 4747b050-d035-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/4747b050-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 49, in process_single_asset
+    attributes = await tb_client.read_device_attributes(asset_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 183, in read_device_attributes
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/4747b050-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:19:18 - thingsboard-forecast - INFO - Processing asset 4/4: 3d097740-d035-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:18 - thingsboard-forecast - INFO - Processing asset 3d097740-d035-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:19:18 - thingsboard-forecast - ERROR - Failed to read attributes for 3d097740-d035-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/3d097740-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:19:18 - thingsboard-forecast - ERROR - Failed to process asset 3d097740-d035-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/3d097740-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 49, in process_single_asset
+    attributes = await tb_client.read_device_attributes(asset_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 183, in read_device_attributes
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/3d097740-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:19:18 - thingsboard-forecast - INFO - Forecast job 9168821f-f437-4be7-a83d-2c4383ede639 completed: 0 successful, 4 failed
+2026-01-21 11:19:18 - thingsboard-forecast - INFO - Job 9168821f-f437-4be7-a83d-2c4383ede639 status updated to completed
+2026-01-21 11:27:18 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:18 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:27:18 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:20 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:20 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:27:20 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:20 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:27:20 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:27:20 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:27:20 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:27:20 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:27:20 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:23 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:23 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:27:23 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:25 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:25 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:27:25 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:25 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:27:25 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:27:25 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:27:25 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:27:25 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:27:25 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:56 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:56 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:27:56 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:58 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:58 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:27:58 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:27:58 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:27:58 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:27:58 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:27:58 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:27:58 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:27:58 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:04 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:04 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:28:04 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:06 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:06 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:28:06 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:06 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:28:06 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:28:06 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:28:06 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:28:06 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:28:06 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:14 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:14 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:28:14 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:16 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:16 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:28:16 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:16 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:28:16 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:28:16 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:28:16 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:28:16 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:28:16 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:35 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:35 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:28:35 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:44 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:44 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:28:44 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:28:44 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:28:44 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:28:44 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:28:44 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:28:44 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:28:44 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:03 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:03 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:29:03 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:05 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:05 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:29:05 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:05 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:29:05 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:29:05 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:29:05 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:29:05 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:29:05 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:16 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:16 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:29:16 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:18 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:18 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:29:18 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:18 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:29:18 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:29:18 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:29:18 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:29:18 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:29:18 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:23 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:23 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:29:23 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:25 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:25 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:29:25 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:25 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:29:25 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:29:25 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:29:25 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:29:25 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:29:25 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:39 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:39 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:29:39 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:41 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:41 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:29:41 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:29:41 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:29:41 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:29:41 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:29:41 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:29:41 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:29:41 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:30:01 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:30:01 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:30:01 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:30:02 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:30:02 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:30:02 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:30:02 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:30:02 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:30:02 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:30:02 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:30:02 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:30:02 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:45:34 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:45:34 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:45:34 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:45:34 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:45:34 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:45:34 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:45:34 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:45:34 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:45:34 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:46:24 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:46:24 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:46:24 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:46:25 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:46:25 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:46:25 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:46:26 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:46:26 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:46:26 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:46:26 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:46:26 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:46:26 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:46:26 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:46:26 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:46:26 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:46:27 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:46:27 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:46:27 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:46:27 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:46:27 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:46:27 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:46:27 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:46:27 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:46:27 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:48:31 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:48:31 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:48:31 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:07 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:07 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:49:07 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:09 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:09 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:49:09 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:09 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:49:09 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:49:09 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:49:09 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:49:09 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:49:09 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:11 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:11 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:49:11 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:13 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:13 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:49:13 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:13 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:49:13 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:49:13 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:49:13 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:49:13 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:49:13 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:26 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:26 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:49:26 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:28 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:28 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:49:28 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:28 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:49:28 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:49:28 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:49:28 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:49:28 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:49:28 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:49:53 - thingsboard-forecast - INFO - Processing new asset: FAKE_ASSET_ID_99999
+2026-01-21 11:49:53 - thingsboard-forecast - INFO - Processing new asset FAKE_ASSET_ID_99999
+2026-01-21 11:49:53 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:49:54 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:49:54 - thingsboard-forecast - ERROR - Error checking asset existence for FAKE_ASSET_ID_99999: Client error '400 ' for url 'https://cloud.thingsnode.cc/api/asset/FAKE_ASSET_ID_99999'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-01-21 11:50:12 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:50:12 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:50:12 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:50:13 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:50:13 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:50:13 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:50:13 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:50:13 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:50:13 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:50:13 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:50:13 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:50:13 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:50:20 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:50:20 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:50:20 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:50:22 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:50:22 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:50:22 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:50:22 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:50:22 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:50:22 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:50:22 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:50:22 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:50:22 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:50:47 - thingsboard-forecast - INFO - Received forecast request for asset: FAKE_ASSET_ID_12345
+2026-01-21 11:50:47 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:50:48 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:50:48 - thingsboard-forecast - ERROR - Error checking asset existence for FAKE_ASSET_ID_12345: Client error '400 ' for url 'https://cloud.thingsnode.cc/api/asset/FAKE_ASSET_ID_12345'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-01-21 11:50:49 - thingsboard-forecast - INFO - Processing new asset: FAKE_ASSET_ID_99999
+2026-01-21 11:50:49 - thingsboard-forecast - INFO - Processing new asset FAKE_ASSET_ID_99999
+2026-01-21 11:50:49 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:50:50 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:50:50 - thingsboard-forecast - ERROR - Error checking asset existence for FAKE_ASSET_ID_99999: Client error '400 ' for url 'https://cloud.thingsnode.cc/api/asset/FAKE_ASSET_ID_99999'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-01-21 11:50:51 - thingsboard-forecast - INFO - Received forecast request for asset: VALID_TEST_ASSET
+2026-01-21 11:50:51 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:50:52 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:50:52 - thingsboard-forecast - ERROR - Error checking asset existence for VALID_TEST_ASSET: Client error '400 ' for url 'https://cloud.thingsnode.cc/api/asset/VALID_TEST_ASSET'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400
+2026-01-21 11:52:39 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:52:39 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 11:52:39 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:52:41 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:52:41 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:52:41 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:52:41 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:52:41 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:52:41 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:52:41 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:52:41 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:52:41 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:52:45 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:52:45 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 11:52:45 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:52:45 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 11:52:45 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 11:52:45 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 11:52:45 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 11:52:45 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 11:52:45 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 11:53:14 - thingsboard-forecast - INFO - Received forecast request for asset: 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-01-21 11:53:14 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:53:15 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:53:15 - thingsboard-forecast - ERROR - Error checking asset existence for 78fda490-e08b-11f0-b68f-8f33a9d74e0c: Client error '403 ' for url 'https://cloud.thingsnode.cc/api/asset/78fda490-e08b-11f0-b68f-8f33a9d74e0c'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-01-21 11:53:19 - thingsboard-forecast - INFO - Received forecast request for asset: 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-01-21 11:53:19 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:53:20 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:53:20 - thingsboard-forecast - ERROR - Error checking asset existence for 78fda490-e08b-11f0-b68f-8f33a9d74e0c: Client error '403 ' for url 'https://cloud.thingsnode.cc/api/asset/78fda490-e08b-11f0-b68f-8f33a9d74e0c'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-01-21 11:53:48 - thingsboard-forecast - INFO - Received forecast request for asset: 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:49 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:53:49 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:53:50 - thingsboard-forecast - INFO - Created job 78eea4fe-e76b-4f45-aebd-ff6b16e94874 for asset 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:50 - thingsboard-forecast - INFO - Forecast job 78eea4fe-e76b-4f45-aebd-ff6b16e94874 started in background
+2026-01-21 11:53:50 - thingsboard-forecast - INFO - Starting forecast job 78eea4fe-e76b-4f45-aebd-ff6b16e94874 for main asset 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:50 - thingsboard-forecast - INFO - Job 78eea4fe-e76b-4f45-aebd-ff6b16e94874 status updated to running
+2026-01-21 11:53:50 - thingsboard-forecast - INFO - Retrieving assets from 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:50 - thingsboard-forecast - INFO - Traversing asset hierarchy from 1efbe6e0-d033-11f0-adfd-15f38d7cdc8e to level 1
+2026-01-21 11:53:50 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:53:51 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:53:51 - thingsboard-forecast - INFO - Level 1: Found 4 assets
+2026-01-21 11:53:51 - thingsboard-forecast - INFO - Found 4 assets at level 1
+2026-01-21 11:53:51 - thingsboard-forecast - INFO - Processing asset 1/4: d2706990-d032-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:51 - thingsboard-forecast - INFO - Processing asset d2706990-d032-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:51 - thingsboard-forecast - ERROR - Failed to read attributes for d2706990-d032-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/d2706990-d032-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:51 - thingsboard-forecast - ERROR - Failed to process asset d2706990-d032-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/d2706990-d032-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 77, in process_single_asset
+    attributes = await tb_client.read_device_attributes(asset_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 183, in read_device_attributes
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/d2706990-d032-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:51 - thingsboard-forecast - WARNING - Job 78eea4fe-e76b-4f45-aebd-ff6b16e94874 - Asset d2706990-d032-11f0-adfd-15f38d7cdc8e error: unexpected_error: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/d2706990-d032-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:51 - thingsboard-forecast - INFO - Processing asset 2/4: 6a6886b0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:51 - thingsboard-forecast - INFO - Processing asset 6a6886b0-d033-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:51 - thingsboard-forecast - ERROR - Failed to read attributes for 6a6886b0-d033-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/6a6886b0-d033-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:51 - thingsboard-forecast - ERROR - Failed to process asset 6a6886b0-d033-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/6a6886b0-d033-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 77, in process_single_asset
+    attributes = await tb_client.read_device_attributes(asset_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 183, in read_device_attributes
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/6a6886b0-d033-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:51 - thingsboard-forecast - WARNING - Job 78eea4fe-e76b-4f45-aebd-ff6b16e94874 - Asset 6a6886b0-d033-11f0-adfd-15f38d7cdc8e error: unexpected_error: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/6a6886b0-d033-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:51 - thingsboard-forecast - INFO - Processing asset 3/4: 4747b050-d035-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:51 - thingsboard-forecast - INFO - Processing asset 4747b050-d035-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:52 - thingsboard-forecast - ERROR - Failed to read attributes for 4747b050-d035-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/4747b050-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:52 - thingsboard-forecast - ERROR - Failed to process asset 4747b050-d035-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/4747b050-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 77, in process_single_asset
+    attributes = await tb_client.read_device_attributes(asset_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 183, in read_device_attributes
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/4747b050-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:52 - thingsboard-forecast - WARNING - Job 78eea4fe-e76b-4f45-aebd-ff6b16e94874 - Asset 4747b050-d035-11f0-adfd-15f38d7cdc8e error: unexpected_error: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/4747b050-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:52 - thingsboard-forecast - INFO - Processing asset 4/4: 3d097740-d035-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:52 - thingsboard-forecast - INFO - Processing asset 3d097740-d035-11f0-adfd-15f38d7cdc8e
+2026-01-21 11:53:52 - thingsboard-forecast - ERROR - Failed to read attributes for 3d097740-d035-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/3d097740-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:52 - thingsboard-forecast - ERROR - Failed to process asset 3d097740-d035-11f0-adfd-15f38d7cdc8e: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/3d097740-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 77, in process_single_asset
+    attributes = await tb_client.read_device_attributes(asset_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 183, in read_device_attributes
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/3d097740-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:52 - thingsboard-forecast - WARNING - Job 78eea4fe-e76b-4f45-aebd-ff6b16e94874 - Asset 3d097740-d035-11f0-adfd-15f38d7cdc8e error: unexpected_error: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/3d097740-d035-11f0-adfd-15f38d7cdc8e/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:53:52 - thingsboard-forecast - INFO - Forecast job 78eea4fe-e76b-4f45-aebd-ff6b16e94874 completed: 0 successful, 4 failed, 0 skipped
+2026-01-21 11:53:52 - thingsboard-forecast - INFO - Job 78eea4fe-e76b-4f45-aebd-ff6b16e94874 status updated to completed
+2026-01-21 11:54:52 - thingsboard-forecast - INFO - Processing new asset: b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 11:54:52 - thingsboard-forecast - INFO - Processing new asset b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 11:54:53 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:54:53 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:54:54 - thingsboard-forecast - WARNING - Asset b4ee7360-f4fb-11f0-bef0-af3b94c8901e not found in ThingsBoard
+2026-01-21 11:55:21 - thingsboard-forecast - INFO - Processing new asset: b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 11:55:21 - thingsboard-forecast - INFO - Processing new asset b4ee7360-f4fb-11f0-bef0-af3b94c8901e
+2026-01-21 11:55:21 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:55:22 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:55:22 - thingsboard-forecast - WARNING - Asset b4ee7360-f4fb-11f0-bef0-af3b94c8901e not found in ThingsBoard
+2026-01-21 11:55:56 - thingsboard-forecast - INFO - Processing new asset: 9a41c170-df25-11f0-b68f-8f33a9d74e0c
+2026-01-21 11:55:56 - thingsboard-forecast - INFO - Processing new asset 9a41c170-df25-11f0-b68f-8f33a9d74e0c
+2026-01-21 11:55:56 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 11:55:57 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 11:55:57 - thingsboard-forecast - INFO - Processing asset 9a41c170-df25-11f0-b68f-8f33a9d74e0c
+2026-01-21 11:55:58 - thingsboard-forecast - ERROR - Failed to read attributes for 9a41c170-df25-11f0-b68f-8f33a9d74e0c: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/9a41c170-df25-11f0-b68f-8f33a9d74e0c/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 11:55:58 - thingsboard-forecast - ERROR - Failed to process asset 9a41c170-df25-11f0-b68f-8f33a9d74e0c: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/9a41c170-df25-11f0-b68f-8f33a9d74e0c/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\forecast_service.py", line 77, in process_single_asset
+    attributes = await tb_client.read_device_attributes(asset_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "e:\MagicBit\Greeen power\Power Predicition All devices\app\services\thingsboard_client.py", line 183, in read_device_attributes
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\nimne\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 ' for url 'https://cloud.thingsnode.cc/api/plugins/telemetry/DEVICE/9a41c170-df25-11f0-b68f-8f33a9d74e0c/values/attributes/SERVER_SCOPE'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-01-21 12:03:26 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-01-21 12:03:27 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-01-21 12:03:27 - thingsboard-forecast - INFO - Created job e9d23262-8219-422b-bd87-6efadf1d9beb for asset test-asset-123
+2026-01-21 12:03:27 - thingsboard-forecast - INFO - Job e9d23262-8219-422b-bd87-6efadf1d9beb status updated to running
+2026-01-21 12:03:27 - thingsboard-forecast - INFO - Job e9d23262-8219-422b-bd87-6efadf1d9beb status updated to completed
+2026-01-21 12:04:57 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 12:04:57 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-01-21 12:04:57 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 12:04:57 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-01-21 12:04:57 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-01-21 12:04:57 - thingsboard-forecast - INFO - Default Target Level: 1
+2026-01-21 12:04:57 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-01-21 12:04:57 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-01-21 12:04:57 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 12:15:55 - thingsboard-forecast - INFO - ============================================================
+2026-01-21 12:15:55 - thingsboard-forecast - INFO - Shutting down API service
+2026-01-21 12:15:55 - thingsboard-forecast - INFO - ============================================================

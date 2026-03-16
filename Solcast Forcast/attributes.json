@@ -1,0 +1,269 @@
+[
+  {
+    "lastUpdateTs": 1768802881406,
+    "key": "inactivityAlarmTime",
+    "value": 1768802881406
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "Site_ID",
+    "value": "GGC_S_0038"
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "inverter_model",
+    "value": "SUN2000-50KTL-M3-400V"
+  },
+  {
+    "lastUpdateTs": 1768802345383,
+    "key": "performance_ratio",
+    "value": 0.827
+  },
+  {
+    "lastUpdateTs": 1768802345383,
+    "key": "pv_module_manufacturer",
+    "value": "Longi Solar"
+  },
+  {
+    "lastUpdateTs": 1768802345383,
+    "key": "pv_module_power_wp",
+    "value": 575
+  },
+  {
+    "lastUpdateTs": 1768802345383,
+    "key": "inverter_manufacturer",
+    "value": "Huawei Technologies"
+  },
+  {
+    "lastUpdateTs": 1768802345383,
+    "key": "inverter_power_kwac",
+    "value": 40.0
+  },
+  {
+    "lastUpdateTs": 1768802345383,
+    "key": "system_power_kwp",
+    "value": 47.7
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "pv_module_model",
+    "value": "JKM-555M-72HL4"
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "latitude",
+    "value": "7.28"
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "longitude",
+    "value": "80.59"
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "buildingType",
+    "value": "School"
+  },
+  {
+    "lastUpdateTs": 1768802345383,
+    "key": "soiling_loss_pct",
+    "value": 3.0
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "system_capacity",
+    "value": "239 kWp"
+  },
+  {
+    "lastUpdateTs": 1768802345383,
+    "key": "lid_loss_pct",
+    "value": 1.1
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "module_count",
+    "value": "430"
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "isSite",
+    "value": "true"
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "Site_Name",
+    "value": "Ranabima Royal College"
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "altitude",
+    "value": "480m"
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "inverter_units",
+    "value": "4"
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "inverter_details",
+    "value": "4 x SUN2000-50KTL-M3-400V"
+  },
+  {
+    "lastUpdateTs": 1768802881406,
+    "key": "active",
+    "value": false
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "orientation",
+    "value": [
+      {
+        "tilt": "16",
+        "azimuth": "-120",
+        "name": "01",
+        "module_count": "30"
+      },
+      {
+        "tilt": "16",
+        "azimuth": "-120",
+        "name": "02",
+        "module_count": "30"
+      },
+      {
+        "tilt": "16",
+        "azimuth": "-120",
+        "name": "03",
+        "module_count": "30"
+      },
+      {
+        "tilt": "22",
+        "azimuth": "15",
+        "name": "04",
+        "module_count": "17"
+      },
+      {
+        "tilt": "16",
+        "azimuth": "60",
+        "name": "05",
+        "module_count": "30"
+      },
+      {
+        "tilt": "16",
+        "azimuth": "60",
+        "name": "06",
+        "module_count": "30"
+      },
+      {
+        "tilt": "16",
+        "azimuth": "60",
+        "name": "07",
+        "module_count": "30"
+      },
+      {
+        "tilt": "22",
+        "azimuth": "15",
+        "name": "08",
+        "module_count": "17"
+      },
+      {
+        "tilt": "22",
+        "azimuth": "-165",
+        "name": "09",
+        "module_count": "30"
+      },
+      {
+        "tilt": "23",
+        "azimuth": "-15",
+        "name": "010",
+        "module_count": "24"
+      },
+      {
+        "tilt": "23",
+        "azimuth": "-15",
+        "name": "011",
+        "module_count": "24"
+      },
+      {
+        "tilt": "23",
+        "azimuth": "165",
+        "name": "012",
+        "module_count": "30"
+      },
+      {
+        "tilt": "12",
+        "azimuth": "-109",
+        "name": "013",
+        "module_count": "32"
+      },
+      {
+        "tilt": "12",
+        "azimuth": "71",
+        "name": "014",
+        "module_count": "32"
+      },
+      {
+        "tilt": "23",
+        "azimuth": "165",
+        "name": "015",
+        "module_count": "30"
+      },
+      {
+        "tilt": "22",
+        "azimuth": "15",
+        "name": "016",
+        "module_count": "14"
+      }
+    ]
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "pv_module_area",
+    "value": 2.5837
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "iam",
+    "value": {
+      "angles": [
+        "0",
+        "30",
+        "50",
+        "60",
+        "70",
+        "75",
+        "80",
+        "85",
+        "90",
+        "7",
+        "80",
+        "5"
+      ],
+      "values": [
+        "1.000",
+        "0.999",
+        "0.987",
+        "0.963",
+        "0.892",
+        "0.814",
+        "0.679",
+        "0.438",
+        "0.000"
+      ]
+    }
+  },
+  {
+    "lastUpdateTs": 1768811754708,
+    "key": "losses",
+    "value": {
+      "soiling": 0.03,
+      "lid": 0.03,
+      "module_quality": -0.0075,
+      "mismatch": 0.0085,
+      "dc_wiring": 0.015,
+      "ac_wiring": 0.005,
+      "albedo": 0.2,
+      "far_shading": 1.0
+    }
+  }
+]

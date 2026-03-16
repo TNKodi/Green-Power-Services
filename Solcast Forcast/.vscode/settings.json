@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd \"e:\\\\MagicBit\\\\Greeen power\\\\Power Predicition All devices\" ; python -u \"Scripts\\\\power_predicition\\\\main\\.py\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^& \"E:/MagicBit/Greeen power/Power Predicition All devices/\\.venv/Scripts/python\\.exe\" -m pytest -q$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

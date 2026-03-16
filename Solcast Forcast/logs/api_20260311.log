@@ -1,0 +1,380 @@
+2026-03-11 09:39:25 - thingsboard-forecast - INFO - ============================================================
+2026-03-11 09:39:25 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-03-11 09:39:25 - thingsboard-forecast - INFO - ============================================================
+2026-03-11 09:39:25 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-03-11 09:39:25 - thingsboard-forecast - INFO - ThingsBoard Host: https://windforce.thingsnode.cc
+2026-03-11 09:39:25 - thingsboard-forecast - INFO - Default Target Level: 4
+2026-03-11 09:39:25 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-03-11 09:39:25 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-03-11 09:39:25 - thingsboard-forecast - INFO - ============================================================
+2026-03-11 09:39:46 - thingsboard-forecast - INFO - Received forecast request for asset: 78fda490-e08b-11f0-b68f-8f33a9d74e0c | already_have=True
+2026-03-11 09:39:47 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-03-11 09:39:48 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-03-11 09:39:48 - thingsboard-forecast - INFO - Created job 6c010197-8181-45a1-a38c-fe30de67a6ad for asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:39:48 - thingsboard-forecast - INFO - Forecast job 6c010197-8181-45a1-a38c-fe30de67a6ad started in background
+2026-03-11 09:39:48 - thingsboard-forecast - INFO - Starting forecast job 6c010197-8181-45a1-a38c-fe30de67a6ad for main asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c | already_have=True | start=2026-03-10T00:00:00+05:30 end=2026-03-10T23:59:59+05:30
+2026-03-11 09:39:48 - thingsboard-forecast - INFO - Job 6c010197-8181-45a1-a38c-fe30de67a6ad status updated to running
+2026-03-11 09:39:48 - thingsboard-forecast - INFO - Retrieving hierarchy from 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:39:48 - thingsboard-forecast - INFO - Building hierarchy from root 78fda490-e08b-11f0-b68f-8f33a9d74e0c up to depth 4
+2026-03-11 09:39:48 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-03-11 09:39:49 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-03-11 09:39:49 - thingsboard-forecast - INFO - Hierarchy level 2: found 7 assets
+2026-03-11 09:39:51 - thingsboard-forecast - INFO - Hierarchy level 3: found 12 assets
+2026-03-11 09:39:54 - thingsboard-forecast - INFO - Hierarchy level 4: found 8 assets
+2026-03-11 09:39:54 - thingsboard-forecast - INFO - Hierarchy ready with 4 levels. Processing 8 assets at deepest level
+2026-03-11 09:39:54 - thingsboard-forecast - INFO - Processing deepest asset 1/8: 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 09:39:54 - thingsboard-forecast - INFO - Processing asset 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 09:39:54 - thingsboard-forecast - INFO - Retrieved 24 attributes for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 09:39:54 - thingsboard-forecast - INFO - Running power prediction for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 09:40:00 - thingsboard-forecast - INFO - Prediction completed for 973a7ea0-f06d-11f0-af3b-45cf7f181cac: 454.38 kWh total
+2026-03-11 09:40:00 - thingsboard-forecast - INFO - Writing telemetry for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 09:40:00 - thingsboard-forecast - INFO - Writing 288 telemetry records to 973a7ea0-f06d-11f0-af3b-45cf7f181cac in a single API call
+2026-03-11 09:40:01 - thingsboard-forecast - INFO - Successfully wrote 288 records to 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 09:40:01 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 09:40:01 - thingsboard-forecast - INFO - Writing 1 telemetry records to 973a7ea0-f06d-11f0-af3b-45cf7f181cac in a single API call
+2026-03-11 09:40:01 - thingsboard-forecast - INFO - Successfully wrote 1 records to 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 09:40:01 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 09:40:01 - thingsboard-forecast - INFO - Processing deepest asset 2/8: 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:01 - thingsboard-forecast - INFO - Processing asset 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:02 - thingsboard-forecast - INFO - Retrieved 24 attributes for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:02 - thingsboard-forecast - INFO - Running power prediction for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:03 - thingsboard-forecast - INFO - Prediction completed for 10425f40-08a4-11f1-8bdd-cfe25c37864b: 490.86 kWh total
+2026-03-11 09:40:03 - thingsboard-forecast - INFO - Writing telemetry for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:03 - thingsboard-forecast - INFO - Writing 288 telemetry records to 10425f40-08a4-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:04 - thingsboard-forecast - INFO - Successfully wrote 288 records to 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:04 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:04 - thingsboard-forecast - INFO - Writing 1 telemetry records to 10425f40-08a4-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:04 - thingsboard-forecast - INFO - Successfully wrote 1 records to 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:04 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:04 - thingsboard-forecast - INFO - Processing deepest asset 3/8: 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:04 - thingsboard-forecast - INFO - Processing asset 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:04 - thingsboard-forecast - INFO - Retrieved 24 attributes for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:05 - thingsboard-forecast - INFO - Running power prediction for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:06 - thingsboard-forecast - INFO - Prediction completed for 87657cb0-08a4-11f1-8bdd-cfe25c37864b: 2601.53 kWh total
+2026-03-11 09:40:06 - thingsboard-forecast - INFO - Writing telemetry for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:06 - thingsboard-forecast - INFO - Writing 288 telemetry records to 87657cb0-08a4-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:06 - thingsboard-forecast - INFO - Successfully wrote 288 records to 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:06 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:06 - thingsboard-forecast - INFO - Writing 1 telemetry records to 87657cb0-08a4-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:07 - thingsboard-forecast - INFO - Successfully wrote 1 records to 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:07 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:07 - thingsboard-forecast - INFO - Processing deepest asset 4/8: 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:07 - thingsboard-forecast - INFO - Processing asset 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:07 - thingsboard-forecast - INFO - Retrieved 24 attributes for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:07 - thingsboard-forecast - INFO - Running power prediction for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Prediction completed for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b: 997.63 kWh total
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Writing telemetry for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Writing 288 telemetry records to 35fa65d0-08a3-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Successfully wrote 288 records to 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Writing 1 telemetry records to 35fa65d0-08a3-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Successfully wrote 1 records to 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Processing deepest asset 5/8: c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Processing asset c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:09 - thingsboard-forecast - INFO - Retrieved 24 attributes for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:10 - thingsboard-forecast - INFO - Running power prediction for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:11 - thingsboard-forecast - INFO - Prediction completed for c85151a0-08a3-11f1-8bdd-cfe25c37864b: 1806.45 kWh total
+2026-03-11 09:40:11 - thingsboard-forecast - INFO - Writing telemetry for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:11 - thingsboard-forecast - INFO - Writing 288 telemetry records to c85151a0-08a3-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:11 - thingsboard-forecast - INFO - Successfully wrote 288 records to c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:11 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:11 - thingsboard-forecast - INFO - Writing 1 telemetry records to c85151a0-08a3-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:12 - thingsboard-forecast - INFO - Successfully wrote 1 records to c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:12 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:12 - thingsboard-forecast - INFO - Processing deepest asset 6/8: 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:12 - thingsboard-forecast - INFO - Processing asset 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:12 - thingsboard-forecast - INFO - Retrieved 24 attributes for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:12 - thingsboard-forecast - INFO - Running power prediction for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Prediction completed for 8ea89070-089f-11f1-8bdd-cfe25c37864b: 923.92 kWh total
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Writing telemetry for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Writing 288 telemetry records to 8ea89070-089f-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Successfully wrote 288 records to 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Writing 1 telemetry records to 8ea89070-089f-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Successfully wrote 1 records to 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Processing deepest asset 7/8: 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Processing asset 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-11 09:40:14 - thingsboard-forecast - INFO - Retrieved 21 attributes for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-11 09:40:15 - thingsboard-forecast - INFO - Running power prediction for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-11 09:40:15 - thingsboard-forecast - ERROR - Power prediction failed for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2026-03-11 09:40:15 - thingsboard-forecast - WARNING - Job 6c010197-8181-45a1-a38c-fe30de67a6ad - Asset 50ed6b00-16e3-11f1-8d01-cff7a27c53e8 error: forecast_calculation_error: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2026-03-11 09:40:15 - thingsboard-forecast - INFO - Processing deepest asset 8/8: 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:15 - thingsboard-forecast - INFO - Processing asset 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:15 - thingsboard-forecast - INFO - Retrieved 24 attributes for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:15 - thingsboard-forecast - INFO - Running power prediction for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:17 - thingsboard-forecast - INFO - Prediction completed for 0c982af0-07ff-11f1-8bdd-cfe25c37864b: 1132.23 kWh total
+2026-03-11 09:40:17 - thingsboard-forecast - INFO - Writing telemetry for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:17 - thingsboard-forecast - INFO - Writing 288 telemetry records to 0c982af0-07ff-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:17 - thingsboard-forecast - INFO - Successfully wrote 288 records to 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:17 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:17 - thingsboard-forecast - INFO - Writing 1 telemetry records to 0c982af0-07ff-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Successfully wrote 1 records to 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Level 4 total forecast: 4064.20 kWh across 7 assets
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Level 4 total daily forecast: 4064.20 kWh across 7 assets
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Rolled up 288 records for parent f1b84100-e564-11f0-b68f-8f33a9d74e0c from 2 children | total=457.11 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Writing 1 telemetry records to f1b84100-e564-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Successfully wrote 1 records to f1b84100-e564-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent f1b84100-e564-11f0-b68f-8f33a9d74e0c from 2 children | total=457.11 kWh
+2026-03-11 09:40:18 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent 6bbf4050-e08a-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:18 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent 6bbf4050-e08a-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:18 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent c5437c70-e564-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:18 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent c5437c70-e564-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Rolled up 288 records for parent baa26d70-e565-11f0-b68f-8f33a9d74e0c from 1 children | total=1300.99 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Writing 1 telemetry records to baa26d70-e565-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Successfully wrote 1 records to baa26d70-e565-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent baa26d70-e565-11f0-b68f-8f33a9d74e0c from 1 children | total=1300.99 kWh
+2026-03-11 09:40:18 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent e548daa0-e565-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:18 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent e548daa0-e565-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:18 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent d42a87a0-e565-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:18 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent d42a87a0-e565-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Rolled up 288 records for parent 585b86f0-08a7-11f1-8bdd-cfe25c37864b from 1 children | total=398.56 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Writing 1 telemetry records to 585b86f0-08a7-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Successfully wrote 1 records to 585b86f0-08a7-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 585b86f0-08a7-11f1-8bdd-cfe25c37864b from 1 children | total=398.56 kWh
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Rolled up 288 records for parent 064d18f0-e56c-11f0-b68f-8f33a9d74e0c from 1 children | total=881.43 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:18 - thingsboard-forecast - INFO - Writing 1 telemetry records to 064d18f0-e56c-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Successfully wrote 1 records to 064d18f0-e56c-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 064d18f0-e56c-11f0-b68f-8f33a9d74e0c from 1 children | total=881.43 kWh
+2026-03-11 09:40:19 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent 33420a00-e56c-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:19 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent 33420a00-e56c-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Rolled up 288 records for parent 011fb860-08a8-11f1-8bdd-cfe25c37864b from 1 children | total=459.79 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Writing 1 telemetry records to 011fb860-08a8-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Successfully wrote 1 records to 011fb860-08a8-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 011fb860-08a8-11f1-8bdd-cfe25c37864b from 1 children | total=459.79 kWh
+2026-03-11 09:40:19 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent 209da440-16e5-11f1-8d01-cff7a27c53e8
+2026-03-11 09:40:19 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent 209da440-16e5-11f1-8d01-cff7a27c53e8
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Rolled up 288 records for parent 891165b0-08a9-11f1-8bdd-cfe25c37864b from 1 children | total=566.32 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Writing 1 telemetry records to 891165b0-08a9-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Successfully wrote 1 records to 891165b0-08a9-11f1-8bdd-cfe25c37864b
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 891165b0-08a9-11f1-8bdd-cfe25c37864b from 1 children | total=566.32 kWh
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Level 3 roll-up total: 4064.20 kWh across 6 parent assets
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Level 3 daily roll-up total: 4064.20 kWh
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Rolled up 288 records for parent 2e68a010-e08b-11f0-b68f-8f33a9d74e0c from 1 children | total=457.11 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Writing 1 telemetry records to 2e68a010-e08b-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Successfully wrote 1 records to 2e68a010-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 2e68a010-e08b-11f0-b68f-8f33a9d74e0c from 1 children | total=457.11 kWh
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Rolled up 288 records for parent 542eab00-e559-11f0-b68f-8f33a9d74e0c from 1 children | total=1300.99 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Writing 1 telemetry records to 542eab00-e559-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Successfully wrote 1 records to 542eab00-e559-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 542eab00-e559-11f0-b68f-8f33a9d74e0c from 1 children | total=1300.99 kWh
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Rolled up 288 records for parent 5bc1d660-e55b-11f0-b68f-8f33a9d74e0c from 1 children | total=398.56 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:19 - thingsboard-forecast - INFO - Writing 1 telemetry records to 5bc1d660-e55b-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Successfully wrote 1 records to 5bc1d660-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 5bc1d660-e55b-11f0-b68f-8f33a9d74e0c from 1 children | total=398.56 kWh
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Rolled up 288 records for parent 922edf70-e55d-11f0-b68f-8f33a9d74e0c from 1 children | total=881.43 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Writing 1 telemetry records to 922edf70-e55d-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Successfully wrote 1 records to 922edf70-e55d-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 922edf70-e55d-11f0-b68f-8f33a9d74e0c from 1 children | total=881.43 kWh
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Rolled up 288 records for parent f3b48730-e559-11f0-b68f-8f33a9d74e0c from 1 children | total=459.79 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Writing 1 telemetry records to f3b48730-e559-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Successfully wrote 1 records to f3b48730-e559-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent f3b48730-e559-11f0-b68f-8f33a9d74e0c from 1 children | total=459.79 kWh
+2026-03-11 09:40:20 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent e3722a60-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:20 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent e3722a60-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Rolled up 288 records for parent 3bbe5780-e55b-11f0-b68f-8f33a9d74e0c from 1 children | total=566.32 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Writing 1 telemetry records to 3bbe5780-e55b-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Successfully wrote 1 records to 3bbe5780-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 3bbe5780-e55b-11f0-b68f-8f33a9d74e0c from 1 children | total=566.32 kWh
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Level 2 roll-up total: 4064.20 kWh across 6 parent assets
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Level 2 daily roll-up total: 4064.20 kWh
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Rolled up 288 records for parent 78fda490-e08b-11f0-b68f-8f33a9d74e0c from 6 children | total=4064.20 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 09:40:20 - thingsboard-forecast - INFO - Writing 1 telemetry records to 78fda490-e08b-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 09:40:21 - thingsboard-forecast - INFO - Successfully wrote 1 records to 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-11 09:40:21 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 78fda490-e08b-11f0-b68f-8f33a9d74e0c from 6 children | total=4064.20 kWh
+2026-03-11 09:40:21 - thingsboard-forecast - INFO - Level 1 roll-up total: 4064.20 kWh across 1 parent assets
+2026-03-11 09:40:21 - thingsboard-forecast - INFO - Level 1 daily roll-up total: 4064.20 kWh
+2026-03-11 09:40:21 - thingsboard-forecast - INFO - Forecast job 6c010197-8181-45a1-a38c-fe30de67a6ad completed: 7 successful, 1 failed, 0 skipped
+2026-03-11 09:40:21 - thingsboard-forecast - INFO - Job 6c010197-8181-45a1-a38c-fe30de67a6ad status updated to completed
+2026-03-11 12:07:49 - thingsboard-forecast - INFO - ============================================================
+2026-03-11 12:07:49 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-03-11 12:07:49 - thingsboard-forecast - INFO - ============================================================
+2026-03-11 12:07:49 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-03-11 12:07:49 - thingsboard-forecast - INFO - ThingsBoard Host: https://windforce.thingsnode.cc
+2026-03-11 12:07:49 - thingsboard-forecast - INFO - Default Target Level: 4
+2026-03-11 12:07:49 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-03-11 12:07:49 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-03-11 12:07:49 - thingsboard-forecast - INFO - ============================================================
+2026-03-11 12:08:05 - thingsboard-forecast - INFO - Received forecast request for asset: 78fda490-e08b-11f0-b68f-8f33a9d74e0c | already_have=True
+2026-03-11 12:08:05 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-03-11 12:08:06 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-03-11 12:08:06 - thingsboard-forecast - INFO - Created job de189ce0-db7e-4af9-941f-98aef93c4617 for asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:06 - thingsboard-forecast - INFO - Forecast job de189ce0-db7e-4af9-941f-98aef93c4617 started in background
+2026-03-11 12:08:06 - thingsboard-forecast - INFO - Starting forecast job de189ce0-db7e-4af9-941f-98aef93c4617 for main asset 78fda490-e08b-11f0-b68f-8f33a9d74e0c | already_have=True | start=2026-03-10T00:00:00+05:30 end=2026-03-10T23:59:59+05:30
+2026-03-11 12:08:06 - thingsboard-forecast - INFO - Job de189ce0-db7e-4af9-941f-98aef93c4617 status updated to running
+2026-03-11 12:08:07 - thingsboard-forecast - INFO - Retrieving hierarchy from 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:07 - thingsboard-forecast - INFO - Building hierarchy from root 78fda490-e08b-11f0-b68f-8f33a9d74e0c up to depth 4
+2026-03-11 12:08:07 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-03-11 12:08:07 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-03-11 12:08:08 - thingsboard-forecast - INFO - Hierarchy level 2: found 7 assets
+2026-03-11 12:08:09 - thingsboard-forecast - INFO - Hierarchy level 3: found 12 assets
+2026-03-11 12:08:12 - thingsboard-forecast - INFO - Hierarchy level 4: found 8 assets
+2026-03-11 12:08:12 - thingsboard-forecast - INFO - Hierarchy ready with 4 levels. Processing 8 assets at deepest level
+2026-03-11 12:08:12 - thingsboard-forecast - INFO - Processing deepest asset 1/8: 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 12:08:12 - thingsboard-forecast - INFO - Processing asset 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 12:08:12 - thingsboard-forecast - INFO - Retrieved 24 attributes for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 12:08:13 - thingsboard-forecast - INFO - Running power prediction for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 12:08:16 - thingsboard-forecast - INFO - Prediction completed for 973a7ea0-f06d-11f0-af3b-45cf7f181cac: 453.73 kWh total
+2026-03-11 12:08:16 - thingsboard-forecast - INFO - Writing telemetry for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 12:08:17 - thingsboard-forecast - INFO - Writing 288 telemetry records to 973a7ea0-f06d-11f0-af3b-45cf7f181cac in a single API call
+2026-03-11 12:08:17 - thingsboard-forecast - INFO - Successfully wrote 288 records to 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 12:08:17 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 12:08:17 - thingsboard-forecast - INFO - Writing 1 telemetry records to 973a7ea0-f06d-11f0-af3b-45cf7f181cac in a single API call
+2026-03-11 12:08:17 - thingsboard-forecast - INFO - Successfully wrote 1 records to 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 12:08:17 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 973a7ea0-f06d-11f0-af3b-45cf7f181cac
+2026-03-11 12:08:17 - thingsboard-forecast - INFO - Processing deepest asset 2/8: 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:17 - thingsboard-forecast - INFO - Processing asset 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:17 - thingsboard-forecast - INFO - Retrieved 24 attributes for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:18 - thingsboard-forecast - INFO - Running power prediction for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:19 - thingsboard-forecast - INFO - Prediction completed for 10425f40-08a4-11f1-8bdd-cfe25c37864b: 477.79 kWh total
+2026-03-11 12:08:19 - thingsboard-forecast - INFO - Writing telemetry for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:19 - thingsboard-forecast - INFO - Writing 288 telemetry records to 10425f40-08a4-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:20 - thingsboard-forecast - INFO - Successfully wrote 288 records to 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:20 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:20 - thingsboard-forecast - INFO - Writing 1 telemetry records to 10425f40-08a4-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:20 - thingsboard-forecast - INFO - Successfully wrote 1 records to 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:20 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 10425f40-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:20 - thingsboard-forecast - INFO - Processing deepest asset 3/8: 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:20 - thingsboard-forecast - INFO - Processing asset 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:20 - thingsboard-forecast - INFO - Retrieved 24 attributes for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:20 - thingsboard-forecast - INFO - Running power prediction for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:22 - thingsboard-forecast - INFO - Prediction completed for 87657cb0-08a4-11f1-8bdd-cfe25c37864b: 2578.09 kWh total
+2026-03-11 12:08:22 - thingsboard-forecast - INFO - Writing telemetry for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:22 - thingsboard-forecast - INFO - Writing 288 telemetry records to 87657cb0-08a4-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:22 - thingsboard-forecast - INFO - Successfully wrote 288 records to 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:22 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:22 - thingsboard-forecast - INFO - Writing 1 telemetry records to 87657cb0-08a4-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:23 - thingsboard-forecast - INFO - Successfully wrote 1 records to 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:23 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 87657cb0-08a4-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:23 - thingsboard-forecast - INFO - Processing deepest asset 4/8: 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:23 - thingsboard-forecast - INFO - Processing asset 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:23 - thingsboard-forecast - INFO - Retrieved 24 attributes for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:23 - thingsboard-forecast - INFO - Running power prediction for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:25 - thingsboard-forecast - INFO - Prediction completed for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b: 966.00 kWh total
+2026-03-11 12:08:25 - thingsboard-forecast - INFO - Writing telemetry for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:25 - thingsboard-forecast - INFO - Writing 288 telemetry records to 35fa65d0-08a3-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:25 - thingsboard-forecast - INFO - Successfully wrote 288 records to 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:25 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:25 - thingsboard-forecast - INFO - Writing 1 telemetry records to 35fa65d0-08a3-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:25 - thingsboard-forecast - INFO - Successfully wrote 1 records to 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:25 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 35fa65d0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:25 - thingsboard-forecast - INFO - Processing deepest asset 5/8: c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:25 - thingsboard-forecast - INFO - Processing asset c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:26 - thingsboard-forecast - INFO - Retrieved 24 attributes for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:26 - thingsboard-forecast - INFO - Running power prediction for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:27 - thingsboard-forecast - INFO - Prediction completed for c85151a0-08a3-11f1-8bdd-cfe25c37864b: 1788.37 kWh total
+2026-03-11 12:08:27 - thingsboard-forecast - INFO - Writing telemetry for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:27 - thingsboard-forecast - INFO - Writing 288 telemetry records to c85151a0-08a3-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:28 - thingsboard-forecast - INFO - Successfully wrote 288 records to c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:28 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:28 - thingsboard-forecast - INFO - Writing 1 telemetry records to c85151a0-08a3-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:28 - thingsboard-forecast - INFO - Successfully wrote 1 records to c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:28 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for c85151a0-08a3-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:28 - thingsboard-forecast - INFO - Processing deepest asset 6/8: 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:28 - thingsboard-forecast - INFO - Processing asset 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:28 - thingsboard-forecast - INFO - Retrieved 24 attributes for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:29 - thingsboard-forecast - INFO - Running power prediction for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:30 - thingsboard-forecast - INFO - Prediction completed for 8ea89070-089f-11f1-8bdd-cfe25c37864b: 923.93 kWh total
+2026-03-11 12:08:30 - thingsboard-forecast - INFO - Writing telemetry for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:30 - thingsboard-forecast - INFO - Writing 288 telemetry records to 8ea89070-089f-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:30 - thingsboard-forecast - INFO - Successfully wrote 288 records to 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:30 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:30 - thingsboard-forecast - INFO - Writing 1 telemetry records to 8ea89070-089f-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:31 - thingsboard-forecast - INFO - Successfully wrote 1 records to 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:31 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 8ea89070-089f-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:31 - thingsboard-forecast - INFO - Processing deepest asset 7/8: 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-11 12:08:31 - thingsboard-forecast - INFO - Processing asset 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-11 12:08:31 - thingsboard-forecast - INFO - Retrieved 21 attributes for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-11 12:08:31 - thingsboard-forecast - INFO - Running power prediction for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-11 12:08:31 - thingsboard-forecast - ERROR - Power prediction failed for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2026-03-11 12:08:31 - thingsboard-forecast - WARNING - Job de189ce0-db7e-4af9-941f-98aef93c4617 - Asset 50ed6b00-16e3-11f1-8d01-cff7a27c53e8 error: forecast_calculation_error: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+2026-03-11 12:08:31 - thingsboard-forecast - INFO - Processing deepest asset 8/8: 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:31 - thingsboard-forecast - INFO - Processing asset 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:31 - thingsboard-forecast - INFO - Retrieved 24 attributes for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:32 - thingsboard-forecast - INFO - Running power prediction for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:33 - thingsboard-forecast - INFO - Prediction completed for 0c982af0-07ff-11f1-8bdd-cfe25c37864b: 1126.94 kWh total
+2026-03-11 12:08:33 - thingsboard-forecast - INFO - Writing telemetry for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:33 - thingsboard-forecast - INFO - Writing 288 telemetry records to 0c982af0-07ff-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Successfully wrote 288 records to 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Successfully wrote 288 telemetry records for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Writing 1 telemetry records to 0c982af0-07ff-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Successfully wrote 1 records to 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Successfully wrote 1 daily energy records for 0c982af0-07ff-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Level 4 total forecast: 4053.97 kWh across 7 assets
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Level 4 total daily forecast: 4053.97 kWh across 7 assets
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Rolled up 288 records for parent f1b84100-e564-11f0-b68f-8f33a9d74e0c from 2 children | total=452.25 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Writing 1 telemetry records to f1b84100-e564-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Successfully wrote 1 records to f1b84100-e564-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent f1b84100-e564-11f0-b68f-8f33a9d74e0c from 2 children | total=452.25 kWh
+2026-03-11 12:08:34 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent 6bbf4050-e08a-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:34 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent 6bbf4050-e08a-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:34 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent c5437c70-e564-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:34 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent c5437c70-e564-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Rolled up 288 records for parent baa26d70-e565-11f0-b68f-8f33a9d74e0c from 1 children | total=1302.76 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Writing 1 telemetry records to baa26d70-e565-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Successfully wrote 1 records to baa26d70-e565-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent baa26d70-e565-11f0-b68f-8f33a9d74e0c from 1 children | total=1302.76 kWh
+2026-03-11 12:08:34 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent e548daa0-e565-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:34 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent e548daa0-e565-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:34 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent d42a87a0-e565-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:34 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent d42a87a0-e565-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Rolled up 288 records for parent 585b86f0-08a7-11f1-8bdd-cfe25c37864b from 1 children | total=396.66 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:34 - thingsboard-forecast - INFO - Writing 1 telemetry records to 585b86f0-08a7-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Successfully wrote 1 records to 585b86f0-08a7-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 585b86f0-08a7-11f1-8bdd-cfe25c37864b from 1 children | total=396.66 kWh
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Rolled up 288 records for parent 064d18f0-e56c-11f0-b68f-8f33a9d74e0c from 1 children | total=875.24 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Writing 1 telemetry records to 064d18f0-e56c-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Successfully wrote 1 records to 064d18f0-e56c-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 064d18f0-e56c-11f0-b68f-8f33a9d74e0c from 1 children | total=875.24 kWh
+2026-03-11 12:08:35 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent 33420a00-e56c-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:35 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent 33420a00-e56c-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Rolled up 288 records for parent 011fb860-08a8-11f1-8bdd-cfe25c37864b from 1 children | total=456.36 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Writing 1 telemetry records to 011fb860-08a8-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Successfully wrote 1 records to 011fb860-08a8-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 011fb860-08a8-11f1-8bdd-cfe25c37864b from 1 children | total=456.36 kWh
+2026-03-11 12:08:35 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent 209da440-16e5-11f1-8d01-cff7a27c53e8
+2026-03-11 12:08:35 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent 209da440-16e5-11f1-8d01-cff7a27c53e8
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Rolled up 288 records for parent 891165b0-08a9-11f1-8bdd-cfe25c37864b from 1 children | total=570.71 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:35 - thingsboard-forecast - INFO - Writing 1 telemetry records to 891165b0-08a9-11f1-8bdd-cfe25c37864b in a single API call
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Successfully wrote 1 records to 891165b0-08a9-11f1-8bdd-cfe25c37864b
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 891165b0-08a9-11f1-8bdd-cfe25c37864b from 1 children | total=570.71 kWh
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Level 3 roll-up total: 4053.97 kWh across 6 parent assets
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Level 3 daily roll-up total: 4053.97 kWh
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Rolled up 288 records for parent 2e68a010-e08b-11f0-b68f-8f33a9d74e0c from 1 children | total=452.25 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Writing 1 telemetry records to 2e68a010-e08b-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Successfully wrote 1 records to 2e68a010-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 2e68a010-e08b-11f0-b68f-8f33a9d74e0c from 1 children | total=452.25 kWh
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Rolled up 288 records for parent 542eab00-e559-11f0-b68f-8f33a9d74e0c from 1 children | total=1302.76 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Writing 1 telemetry records to 542eab00-e559-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Successfully wrote 1 records to 542eab00-e559-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 542eab00-e559-11f0-b68f-8f33a9d74e0c from 1 children | total=1302.76 kWh
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Rolled up 288 records for parent 5bc1d660-e55b-11f0-b68f-8f33a9d74e0c from 1 children | total=396.66 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Writing 1 telemetry records to 5bc1d660-e55b-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Successfully wrote 1 records to 5bc1d660-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 5bc1d660-e55b-11f0-b68f-8f33a9d74e0c from 1 children | total=396.66 kWh
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Rolled up 288 records for parent 922edf70-e55d-11f0-b68f-8f33a9d74e0c from 1 children | total=875.24 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:36 - thingsboard-forecast - INFO - Writing 1 telemetry records to 922edf70-e55d-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Successfully wrote 1 records to 922edf70-e55d-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 922edf70-e55d-11f0-b68f-8f33a9d74e0c from 1 children | total=875.24 kWh
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Rolled up 288 records for parent f3b48730-e559-11f0-b68f-8f33a9d74e0c from 1 children | total=456.36 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Writing 1 telemetry records to f3b48730-e559-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Successfully wrote 1 records to f3b48730-e559-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent f3b48730-e559-11f0-b68f-8f33a9d74e0c from 1 children | total=456.36 kWh
+2026-03-11 12:08:37 - thingsboard-forecast - WARNING - No child telemetry available to roll up for parent e3722a60-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:37 - thingsboard-forecast - WARNING - No child daily telemetry available to roll up for parent e3722a60-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Rolled up 288 records for parent 3bbe5780-e55b-11f0-b68f-8f33a9d74e0c from 1 children | total=570.71 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Writing 1 telemetry records to 3bbe5780-e55b-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Successfully wrote 1 records to 3bbe5780-e55b-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 3bbe5780-e55b-11f0-b68f-8f33a9d74e0c from 1 children | total=570.71 kWh
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Level 2 roll-up total: 4053.97 kWh across 6 parent assets
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Level 2 daily roll-up total: 4053.97 kWh
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Rolled up 288 records for parent 78fda490-e08b-11f0-b68f-8f33a9d74e0c from 6 children | total=4053.97 kWh (interval telemetry write skipped for roll-up)
+2026-03-11 12:08:37 - thingsboard-forecast - INFO - Writing 1 telemetry records to 78fda490-e08b-11f0-b68f-8f33a9d74e0c in a single API call
+2026-03-11 12:08:38 - thingsboard-forecast - INFO - Successfully wrote 1 records to 78fda490-e08b-11f0-b68f-8f33a9d74e0c
+2026-03-11 12:08:38 - thingsboard-forecast - INFO - Rolled up and wrote 1 daily records for parent 78fda490-e08b-11f0-b68f-8f33a9d74e0c from 6 children | total=4053.97 kWh
+2026-03-11 12:08:38 - thingsboard-forecast - INFO - Level 1 roll-up total: 4053.97 kWh across 1 parent assets
+2026-03-11 12:08:38 - thingsboard-forecast - INFO - Level 1 daily roll-up total: 4053.97 kWh
+2026-03-11 12:08:38 - thingsboard-forecast - INFO - Forecast job de189ce0-db7e-4af9-941f-98aef93c4617 completed: 7 successful, 1 failed, 0 skipped
+2026-03-11 12:08:38 - thingsboard-forecast - INFO - Job de189ce0-db7e-4af9-941f-98aef93c4617 status updated to completed

@@ -1,0 +1,21 @@
+2026-03-06 10:57:52 - thingsboard-forecast - INFO - ============================================================
+2026-03-06 10:57:52 - thingsboard-forecast - INFO - Starting thingsboard-power-forecast-api v1.0.0
+2026-03-06 10:57:52 - thingsboard-forecast - INFO - ============================================================
+2026-03-06 10:57:52 - thingsboard-forecast - INFO - Configuration validated successfully
+2026-03-06 10:57:52 - thingsboard-forecast - INFO - ThingsBoard Host: https://cloud.thingsnode.cc
+2026-03-06 10:57:52 - thingsboard-forecast - INFO - Default Target Level: 4
+2026-03-06 10:57:52 - thingsboard-forecast - INFO - Timezone: Asia/Colombo
+2026-03-06 10:57:52 - thingsboard-forecast - INFO - API is ready to accept requests
+2026-03-06 10:57:52 - thingsboard-forecast - INFO - ============================================================
+2026-03-06 10:59:32 - thingsboard-forecast - INFO - Processing new asset: 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-06 10:59:32 - thingsboard-forecast - INFO - Processing new asset 50ed6b00-16e3-11f1-8d01-cff7a27c53e8 | already_have=False | start=2026-03-01T00:00:00 end=2026-04-30T00:00:00
+2026-03-06 10:59:32 - thingsboard-forecast - INFO - Authenticating with ThingsBoard...
+2026-03-06 10:59:33 - thingsboard-forecast - INFO - Successfully authenticated with ThingsBoard
+2026-03-06 10:59:33 - thingsboard-forecast - INFO - Processing asset 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-06 10:59:34 - thingsboard-forecast - INFO - Retrieved 21 attributes for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-06 10:59:34 - thingsboard-forecast - INFO - Running power prediction for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-06 10:59:36 - thingsboard-forecast - INFO - Prediction completed for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8: 27399.22 kWh total
+2026-03-06 10:59:36 - thingsboard-forecast - INFO - Writing telemetry for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-06 10:59:36 - thingsboard-forecast - INFO - Writing 61 telemetry records to 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-06 10:59:57 - thingsboard-forecast - INFO - Successfully wrote 61 records to 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
+2026-03-06 10:59:57 - thingsboard-forecast - INFO - Successfully wrote 61 telemetry records for 50ed6b00-16e3-11f1-8d01-cff7a27c53e8
