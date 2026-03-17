@@ -856,12 +856,22 @@ def print_alarm_report(
 		keys=["active_power", "active_power_solcast"],
 		telemetry_cache=telemetry_cache,
 	)
+	grid_cluster_alarm_names = {
+		"al_st_utility_loss",
+		"al_st_vac_fail_grid_voltage_overrun",
+		"al_st_grid_frequency_overrun",
+	}
 	cluster_totals = {"grid": 0.0, "inverter": 0.0}
 
 	print(f"Alarm energy differences for {len(records)} alarm(s):\n")
 	for record in records:
 		alarm_name = str(record.get("alarm_name") or "")
-		cluster_name = "grid" if alarm_name.strip().lower().startswith("grid") else "inverter"
+		normalized_alarm_name = alarm_name.strip().lower()
+		cluster_name = (
+			"grid"
+			if normalized_alarm_name.startswith("grid") or normalized_alarm_name in grid_cluster_alarm_names
+			else "inverter"
+		)
 
 		print(f"Alarm: {record.get('alarm_name')} ({record.get('alarm_id')})")
 		print(f"  Cluster     : {cluster_name}")
